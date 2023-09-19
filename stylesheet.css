@@ -1,11 +1,37 @@
 img {  
-    max-width: 50%;  
+    max-width: 55%;  
     height: auto;  
 }  
 p {
     font-family: Arial;
 }
+h4{
+    font-family: Arial;
+
+}
 h1{
     font-family: Arial;
 
 }
+h3{
+    font-family: Arial;
+}
+body{
+    background-color: lightgray;
+}
+p{
+    padding-right: 530px;
+
+}
+h5{
+    font-family: Arial;
+}
+
+body{
+    margin-left: 5%;
+}
+h1{
+    font-size: 500%;
+    color: rgb(79, 69, 69);
+}
+
