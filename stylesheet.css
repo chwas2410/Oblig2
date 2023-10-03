@@ -46,4 +46,25 @@ dt{
     font-family: Arial;
 }
 
-
+.footerleft, .footermiddle, .footerright {
+    padding-top: 0.6rem;
+    padding-bottom: 1rem;
+    padding-left: 1rem;
+}
+.footergrid {
+    display: grid;
+    grid-template-columns: auto 40vw auto 40px;
+}
+.footerleft {
+    grid-column: 1 / 2;
+    grid-row: 3;
+    gap: 0.2rem;
+}
+.footermiddle {
+    grid-column: 2 / 3;
+    grid-row: 3;
+}
+.footerright {
+    grid-column: 3 / 3;
+    grid-row: 3;
+}
