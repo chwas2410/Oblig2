@@ -2,18 +2,7 @@ img {
     max-width: 55%;  
     height: auto;  
 }  
-p {
-    font-family: Arial;
-}
-h4{
-    font-family: Arial;
-
-}
-h1{
-    font-family: Arial;
-
-}
-h3{
+p, h4, h1, h3, h5, dt {
     font-family: Arial;
 }
 body{
@@ -21,68 +10,60 @@ body{
 }
 p{
     padding-right: 530px;
-
-}
-h5{
-    font-family: Arial;
 }
 
-body{
-    margin-left: 5%;
-}
 h1{
     font-size: 500%;
     color: rgb(79, 69, 69);
 }
 
-.FOTO {
+.foto {
     color: rgb(154, 15, 15);
 }
-.Endre {
+.endre {
     color:rgb(113, 113, 113)
 }
 
-dt{
-    font-family: Arial;
-}
 
-.footerleft, .footermiddle, .footerright {
-    padding-top: 0.6rem;
-    padding-bottom: 1rem;
-    padding-left: 1rem;
+li, a, button {
+    font-family: Arial;
+    font-weight: 500;
+    font-size: 16px;
+    text-decoration: none;
+    color:black;
+
 }
-.footergrid {
-    display: grid;
-    grid-template-columns: auto 40vw auto 40px;
-    padding-right: 50%;
-}
-.footerleft {
-    grid-column: 1 / 2;
-    grid-row: 3;
-    background-color: rgb(110, 109, 109);
-}
-.footermiddle {
-    grid-column: 2 / 3;
-    grid-row: 3;
-    background-color: rgb(110, 109, 109);
-}
-.footerright {
-    grid-column: 3 / 3;
-    grid-row: 3;
-    background-color: rgb(110, 109, 109);
+footer, header {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 30px 10%;
+    background-color: grey;
 }
 .liste {
-    list-style-type:circle;
-    margin: 0;
-    padding: 0;
-    font-size: large;
-    font-family: arial;
+    list-style: none;
 }
-.liste li {
-    display: inline;
+li {
+    display: inline-block;
+    padding: 0px 20px;
 }
-.menybar {
-    background-color: rgb(228, 228, 228);
-    width: 100vw;
-    height: 5vw;
+.liste li a {
+    transition: all 0.3s ease 0s;
+}
+.liste li a:hover {
+    color:rgb(154, 15, 15)
+}
+button {
+    padding: 9px 25px;
+    background-color: rgb(128, 63, 67);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3 ease 0s;
+}
+button:hover {
+    background-color: rgba(208,31,43,0.8);
+}
+.artikkel {
+    margin: 5%;
 }
