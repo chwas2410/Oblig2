@@ -38,7 +38,7 @@ footer, header {
     justify-content: flex-start;
     align-items: center;
     padding: 30px 10%;
-    background-color: grey;
+    background-color: rgb(82, 82, 82);
 }
 .liste {
     list-style: none;
